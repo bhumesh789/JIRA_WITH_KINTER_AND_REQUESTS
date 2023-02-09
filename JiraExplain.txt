@@ -1,0 +1,48 @@
+********************************* EXPLAINATION OF JIRA PROJECT ********************************
+
+1. first of all i saw what is jira. then watched some vdeo of jira, how to create a account and ticket and i have searched about jira on google.
+
+collected the jira info.
+
+2. After that i created a jira account then I created some ticket manually .
+
+3. I got the ticket url from the jira, which is in all ticket, then I hit the get requets of that url and got all data from that jira api.
+
+4. After that i created database and datbase connection and table. i stored some fields of the data in database as you given like number,
+   name, discription etc...
+
+5. I created some fuction and i gave the task to every function seperetly.
+
+6. In one function I created the ticket and in another function fetched all the data and stored it in the database inclued some fields. 
+    I prepared another similar function like that.
+
+7. In function, I used requets module for fetching the data and other activity,
+
+8 . First function will do the work of create ticket in that fuction i gave their url, header, payload, and then i hit the requests of post,
+    after that will create the ticket.
+
+9. Second fuction will bring the all ticket data from the jira ticket api and i found some fields of ticket and  i stored in database table.
+
+10. In the third fuction i did create a table, i ran the query of create table and I set their try exccept also for error handling.
+
+11. Fourth fuction will do update and add. it will add the comment and change the status , here also i send the requests of post. after that
+    i handle the error thats why i set their coditions if else.
+
+12. After that i ran the while true loop for showing the options to the user like 1. for createTicket, 2 for fetch all ticket like that and 
+    seted their if else condition.
+
+13. I explain these progress in PythonJira.py, i did first and second task in these file PythonJira.py.
+
+14. And In another file I did create a UI using tkinter libraray , I used there fuction and properties of tkinter libraray like listbox,
+    pack, mainloop, button, root, tk. etc.. for making the UI.
+
+15. I set their button. when will click the button that time will ran the function and refetch all data from database.
+ 
+    will work program like that.
+
+    when will you run these UI.py, will create a UI and will see the data on UI.
+
+    i did third and fourth task in these file.
+
+
+    Thaks..!
